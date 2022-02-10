@@ -1,0 +1,23 @@
+.filled{
+    fill: var(--primary);
+}
+
+.star{ 
+    margin-right: 7px;
+}
+
+.editable{
+    cursor: pointer;
+}
+
+.ratingWrapper{
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: var(--red);
+}
+
